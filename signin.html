@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sign In - My Job Board</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Sign In</h1>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a> |
+        <a href="search.html">Search Jobs</a> |
+        <a href="post.html">Post a Job</a> |
+        <a href="signin.html">Sign In</a> |
+        <a href="register.html">Register</a>
+    </nav>
+
+    <main>
+        <form id="signin-form">
+            <div class="form-inputs">
+              <label for="username-input">Username:</label>
+              <input type="text" id="username-input" placeholder="Enter your username" required>
+            </div>
+            <div class="form-inputs">
+              <label for="password-input">Password:</label>
+              <input type="password" id="password-input" placeholder="Enter your password" required>
+            </div>
+            <button type="submit">Sign In</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 My Job Board</p>
+    </footer>
+
+    <script src="signin.js"></script>
+    <script>
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Register - My Job Board</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Register</h1>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a> |
+        <a href="search.html">Search Jobs</a> |
+        <a href="post.html">Post a Job</a> |
+        <a href="signin.html">Sign In</a> |
+        <a href="register.html">Register</a>
+    </nav>
+
+    <main>
+        <form id="register-form">
+            <div class="form-inputs">
+              <label for="new-username-input">Username:</label>
+              <input type="text" id="new-username-input" placeholder="Enter a username" required>
+            </div>
+            <div class="form-inputs">
+              <label for="new-password-input">Password:</label>
+              <input type="password" id="new-password-input" placeholder="Enter a password" required>
+            </div>
+            <div class="form-inputs">
+              <label for="confirm-password-input">Confirm Password:</label>
+              <input type="password" id="confirm-password-input" placeholder="Confirm your password" required>
+            </div>
+            <button type="submit">Register</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 My Job Board</p>
+    </footer>
+
+    <script src="register.js"></script>
+    <script>
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>

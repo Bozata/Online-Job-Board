@@ -1,0 +1,122 @@
+{
+    "categories": [
+      {
+        "id": 1,
+        "name": "Web Development"
+      },
+      {
+        "id": 2,
+        "name": "Design"
+      },
+      {
+        "id": 3,
+        "name": "Marketing"
+      },
+      {
+        "id": 4,
+        "name": "Data Science"
+      },
+      {
+        "id": 5,
+        "name": "Project Management"
+      }
+    ],
+    "jobs": [
+      {
+        "id": 1,
+        "title": "Front-end Developer",
+        "company": "ABC Company",
+        "location": "New York, USA",
+        "description": "We are seeking a talented Front-end Developer to join our team. You will be responsible for creating responsive web pages and ensuring optimal user experience. Proficiency in HTML, CSS, and JavaScript is required.",
+        "categoryId": 1
+      },
+      {
+        "id": 2,
+        "title": "UI/UX Designer",
+        "company": "XYZ Agency",
+        "location": "San Francisco, USA",
+        "description": "We are looking for a skilled UI/UX Designer to create intuitive and visually appealing user interfaces. You will collaborate with our development team to bring designs to life using industry-standard design tools.",
+        "categoryId": 2
+      },
+      {
+        "id": 3,
+        "title": "Digital Marketer",
+        "company": "123 Marketing",
+        "location": "London, UK",
+        "description": "Join our team as a Digital Marketer and drive effective marketing strategies across various online channels. Experience in SEO, social media marketing, and campaign analytics is preferred.",
+        "categoryId": 2
+      },
+      {
+        "id": 4,
+        "title": "Data Analyst",
+        "company": "Data Insights",
+        "location": "Chicago, USA",
+        "description": "Data Insights is hiring a Data Analyst to analyze and interpret complex data sets. You will collaborate with cross-functional teams to provide insights and help drive data-driven decision-making.",
+        "categoryId": 4
+      },
+      {
+        "id": 5,
+        "title": "Full-stack Developer",
+        "company": "Tech Solutions",
+        "location": "Seattle, USA",
+        "description": "We are seeking a skilled Full-stack Developer to build innovative web applications. You should have expertise in both front-end and back-end development using modern frameworks and technologies.",
+        "categoryId": 1
+      },
+      {
+        "id": 6,
+        "title": "Graphic Designer",
+        "company": "Creative Studio",
+        "location": "Los Angeles, USA",
+        "description": "Join our design team as a Graphic Designer and create visually stunning designs for print and digital media. Proficiency in design software and a strong portfolio are required.",
+        "categoryId": 2
+      },
+      {
+        "id": 7,
+        "title": "Project Manager",
+        "company": "Acme Inc.",
+        "location": "London, UK",
+        "description": "We are hiring a Project Manager to lead and oversee projects from initiation to completion. Strong leadership and organizational skills are required.",
+        "categoryId": 5
+      },
+      {
+        "id": 8,
+        "title": "Back-end Developer",
+        "company": "Tech Solutions",
+        "location": "Seattle, USA",
+        "description": "We are seeking a skilled Back-end Developer to build and maintain server-side applications. Strong knowledge of programming languages and frameworks is required.",
+        "categoryId": 1
+      },
+      {
+        "id": 9,
+        "title": "Product Designer",
+        "company": "Innovative Tech",
+        "location": "San Francisco, USA",
+        "description": "Join our product design team and create user-centered designs for our software products. Proficiency in design tools and understanding of UX principles are required.",
+        "categoryId": 2
+      },
+      {
+        "id": 10,
+        "title": "Social Media Manager",
+        "company": "123 Marketing",
+        "location": "London, UK",
+        "description": "We are hiring a Social Media Manager to develop and implement social media strategies. Experience in managing social media accounts and creating engaging content is required.",
+        "categoryId": 3
+      },
+      {
+        "id": 11,
+        "title": "Data Engineer",
+        "company": "Data Insights",
+        "location": "Chicago, USA",
+        "description": "Data Insights is seeking a Data Engineer to design and build scalable data pipelines. Strong programming and database skills are required.",
+        "categoryId": 4
+      },
+      {
+        "id": 12,
+        "title": "Project Coordinator",
+        "company": "Acme Inc.",
+        "location": "London, UK",
+        "description": "Join our team as a Project Coordinator and assist in project planning and coordination. Strong organizational and communication skills are required.",
+        "categoryId": 5
+      }
+    ]
+  }

@@ -1,0 +1,29 @@
+{
+    "news": [
+      {
+        "id": 1,
+        "title": "New Feature Release",
+        "content": "We are excited to announce the release of our new feature that will revolutionize the job searching experience. Stay tuned for more updates!"
+      },
+      {
+        "id": 2,
+        "title": "Job Board Updates",
+        "content": "We have made some enhancements to our job board platform to provide a better user experience. Check out the latest improvements!"
+      },
+      {
+        "id": 3,
+        "title": "Industry Insights",
+        "content": "Read our latest article on industry trends and insights. Gain valuable knowledge to stay ahead in your career."
+      },
+      {
+        "id": 4,
+        "title": "Job Search Tips",
+        "content": "Looking for job search tips? We have compiled a list of helpful tips to assist you in finding your dream job. Don't miss out!"
+      },
+      {
+        "id": 5,
+        "title": "Company Spotlight",
+        "content": "Learn more about the top companies in the industry. Discover their culture, values, and job opportunities."
+      }
+    ]
+  }  

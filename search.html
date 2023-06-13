@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Search Jobs - My Job Board</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Search for Jobs</h1>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a> |
+        <a href="search.html">Search Jobs</a> |
+        <a href="post.html">Post a Job</a> |
+        <a href="signin.html">Sign In</a> |
+        <a href="register.html">Register</a>
+    </nav>
+
+    <main>
+        <form id="search-form">
+            <div class="search-inputs">
+                <label for="keyword-input">Keywords:</label>
+                <input type="text" id="keyword-input" placeholder="Search by keywords">
+            </div>
+            <div class="search-inputs">
+                <label for="location-input">Location:</label>
+                <input type="text" id="location-input" placeholder="Search by location">
+            </div>
+            <div class="search-inputs">
+                <label for="category-select">Category:</label>
+                <select id="category-select">
+                    <option value="">All Categories</option>
+                </select>
+            </div>
+            <button type="submit">Search</button>
+        </form>
+
+        <section id="search-job-listings"></section>
+
+        <div class="pagination">
+            <button id="prev-page">Prev</button>
+            <div class="page-links"></div>
+            <button id="next-page">Next</button>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 My Job Board</p>
+    </footer>
+    <script src="search.js"></script>
+    <script>
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>

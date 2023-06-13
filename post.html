@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Post a Job - My Job Board</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Post a Job</h1>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a> |
+        <a href="search.html">Search Jobs</a> |
+        <a href="post.html">Post a Job</a> |
+        <a href="signin.html">Sign In</a> |
+        <a href="register.html">Register</a>
+    </nav>
+
+    <main>
+        <form id="post-form">
+            <div class="form-inputs">
+              <label for="title-input">Title:</label>
+              <input type="text" id="title-input" placeholder="Enter job title" required>
+            </div>
+            <div class="form-inputs">
+              <label for="company-input">Company:</label>
+              <input type="text" id="company-input" placeholder="Enter company name" required>
+            </div>
+            <div class="form-inputs">
+              <label for="location-input">Location:</label>
+              <input type="text" id="location-input" placeholder="Enter job location" required>
+            </div>
+            <div class="form-inputs">
+              <label for="description-input">Description:</label>
+              <textarea id="description-input" placeholder="Enter job description" required></textarea>
+            </div>
+            <button type="submit">Post Job</button>
+        </form>
+
+        <div id="job-listings"></div>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 My Job Board</p>
+    </footer>
+    <script src="post.js"></script>
+    <script>
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
